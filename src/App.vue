@@ -20,24 +20,24 @@
 </template>
 
 <script setup>
-  import dplColor from './components/dplColor.vue'
+import dplColor from "./components/dplColor.vue";
 </script>
 
 <style scoped>
-  .wrapper {
-    padding: 100px;
-  }
+.wrapper {
+  padding: 100px;
+}
 
-  h1 {
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: purple;
-    margin-bottom: 50px;
-  }
+h1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: purple;
+  margin-bottom: 50px;
+}
 
-  .color-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
+.color-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 </style>
